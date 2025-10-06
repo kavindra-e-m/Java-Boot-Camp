@@ -1,0 +1,15 @@
+package IO;
+
+import java.util.Scanner;
+
+public class Add_2 {
+
+
+	public static void main(String[] args) {
+		printSum(1,2,3,4,5,6,7,8,9);
+	}
+	public static void printSum(int ... num) {
+		System.out.println();
+	}
+
+}
