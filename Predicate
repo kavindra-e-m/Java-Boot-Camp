@@ -1,0 +1,13 @@
+package IO;
+import java.util.Scanner;
+import java.util.function.Predicate;
+import java.util.ArrayList;
+import java.util.Arrays;
+public class Add_2 {
+	public static void main(String[] args) {
+Predicate<Integer> isGreaterThan10 = number -> number >10;
+    	
+    	System.out.println(isGreaterThan10.test(25));
+    	System.out.println(isGreaterThan10.test(5));
+	}
+}
